@@ -29,4 +29,4 @@ A platform for designing, testing, and documenting APIs with a clean UI.
 A client management tool with scheduling, notes, and cross-platform access.   
 
 ## 📬 Contact Me  
-[LinkedIn](https://www.linkedin.com/in/parvejali/) | [Email](mailto:parvej.ali.dev@gmail.com) | [Portfolio](https://parvejali.vercel.app)  
+[LinkedIn](https://www.linkedin.com/in/parvej-ali/) | [Email](mailto:parvej.ali.dev@gmail.com) | [Portfolio](https://parvejali.vercel.app)  
