@@ -2,7 +2,7 @@
 *Software Engineer | Full-Stack Developer | API Specialist*
 
 ## 🚀 About Me  
-I am a Software Engineer with 2.5+ years of experience building scalable web applications. Most of my work has been around **Next.js**, **React Native**, **NestJS**, and **PostgreSQL**, where I’ve designed secure systems, real-time features, and API integrations. I enjoy solving complex problems and turning ideas into reliable, production-ready software.
+I am a Software Development Engineer with 3+ years of experience crafting robust full-stack applications. I specialize in building high-performance web applications using modern technologies like **Next.js**, **TypeScript** and **Node.js**. Passionate about clean architecture, developer experience and delivering products that make a real impact.
 
 ## 🔧 Featured Projects  
 
