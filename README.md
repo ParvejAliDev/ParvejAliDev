@@ -1,5 +1,5 @@
 # Hi, I am Parvej Ali 👋  
-*Software Engineer | Full-Stack Developer | API Specialist*
+*Software Engineer | Backend Engineer | Node.js | PostgreSQL | Next.js*
 
 ## 🚀 About Me  
 I am a Software Development Engineer with 3+ years of experience crafting robust full-stack applications. I specialize in building high-performance web applications using modern technologies like **Next.js**, **TypeScript** and **Node.js**. Passionate about clean architecture, developer experience and delivering products that make a real impact.
