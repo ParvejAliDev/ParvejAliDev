@@ -6,11 +6,11 @@ I am a Software Engineer with 2.5+ years of experience building scalable web app
 
 ## 🔧 Featured Projects  
 
+### [Grameen Haat](https://grameenhaat.netlify.app)  
+A full-stack e-commerce marketplace empowering rural women artisans by connecting traditional craftsmanship with global consumers. Features seller dashboards, product management, order tracking, and role-based access for customers, sellers and admins.
+
 ### [Tribe Space](https://tribespace.vercel.app)  
 Connect with like-minded people, share your passions and build meaningful relationships in niche communities.
-
-### [Grameen Haat](https://grameenhaat.netlify.app)  
-A full-stack e-commerce marketplace empowering rural women artisans by connecting traditional craftsmanship with global consumers. Features seller dashboards, product management, order tracking, and role-based access for customers, sellers, and admins.
 
 ### [Clientpad](https://clientpad.vercel.app)  
 A client management tool with scheduling, notes, and cross-platform access.
