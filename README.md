@@ -1,118 +1,91 @@
-<div align="center">
+# Parvej Ali
 
-# Hi, I am Parvej Ali 👋
+**Software Engineer**
 
-**Software Engineer · Node.js · PostgreSQL · Next.js**
+I build product workflows and backend systems that stay fast, reliable, and easy to reason about after they ship.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://parvejali.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parvej-ali)
+[![Portfolio](https://img.shields.io/badge/Portfolio-parvejali.vercel.app-111111?style=for-the-badge&logo=vercel&logoColor=white)](https://parvejali.vercel.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-parvej--ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parvej-ali)
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&pause=1000&color=4ADE9A&center=true&vCenter=true&width=500&lines=Software+Development+Engineer+%7C+3%2B+Years;Building+Scalable+Backend+Systems;Clean+Architecture+%7C+Developer+Experience" alt="Typing SVG" />
+I work across `Next.js`, `React`, `Node.js`, `TypeScript`, `PostgreSQL`, `Redis`, `Kafka`, `Docker`, and `AWS`, with most of my recent work sitting at the boundary between user-facing product delivery and backend depth.
 
-</div>
+## Focus
 
----
+- Building product flows that connect interface states, API contracts, data access, cache behavior, and release delivery
+- Turning backend complexity into systems that are easier to inspect, explain, and operate
+- Improving the metrics that compound over time: latency, release time, failure visibility, and developer workflow
 
-## 🧑‍💻 About Me
+## Selected systems
 
-I'm a **Software Development Engineer** with **3+ years of experience** crafting robust, full-stack applications. Currently I lead architecture and development of scalable production systems — designing RESTful APIs, optimizing backend performance and integrating third-party services to automate business workflows.
+### [Commerce Ops Suite](https://github.com/parvejalidev/commerce-ops-suite)
 
-Passionate about **clean architecture**, developer experience and delivering products that make a real impact.
+Local-first internal operations dashboard built with `Next.js`, `TypeScript`, `Postgres`, `Redis`, and `Docker Compose`.
 
----
+- Role-aware workspace for orders, reports, and users
+- Server-side loading patterns for data-heavy internal workflows
+- Reproducible local runtime designed for technical walkthroughs
 
-## 🚀 Featured Projects
+### [Event Bridge Demo](https://github.com/parvejalidev/event-bridge-demo)
 
-<table>
-<tr>
-<td width="50%" valign="top">
+Event-driven systems demo built with `NestJS`, `Kafka`, `Postgres`, `Redis`, and `Docker Compose`.
 
-### 🛍️ [Grameen Haat](https://grameenhaat.netlify.app)
-Multi-vendor marketplace empowering rural women artisans by connecting traditional craftsmanship with global consumers.
-- Dual portals — customer & seller
-- 7-stage order status pipeline
-- Product CRUD, inventory & analytics
-- End-to-end checkout with cart & address management
+- Async ingestion and processing flow
+- Dead-letter handling and replay paths
+- Smoke-testable local infrastructure with observable reliability behavior
 
-`React` `TypeScript` `Node.js` `Express` `MongoDB`
+## Highlights
 
-</td>
-<td width="50%" valign="top">
+- Reduced p95 API latency from `1.2s` to `380ms` through query and caching improvements
+- Cut a release workflow from `45 minutes` to `12 minutes` using Docker-based delivery with GitHub Actions and AWS
+- Built and supported onboarding, order tracking, support, and self-serve account workflows in production teams
 
-### 📋 [Clientpad](https://clientpad.vercel.app)
-CRM + invoicing SaaS with enterprise-grade security and a real-time invoice lifecycle.
-- Google OAuth + email/password auth
-- Rate limiting, token rotation & bcrypt hashing
-- Role-based access control & NoSQL injection prevention
-- Invoice lifecycle: draft → sent → paid/overdue
+## Experience
 
-`Next.js` `TypeScript` `Node.js` `MongoDB` `Tailwind CSS`
+### RemoteState
 
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+- `Software Engineer II` · Jun 2025 to Present
+- `Software Engineer` · Jun 2024 to May 2025
+- `Junior Software Engineer` · Jun 2023 to May 2024
 
-### 🌐 [Tribe Space](https://tribespace.vercel.app)
-Community platform for connecting like-minded people around niche passions and building meaningful relationships.
+Current work includes customer and operations workflows across `Next.js`, `React`, `Node.js`, `TypeScript`, `PostgreSQL`, and `Redis`, with hands-on ownership of performance improvements, production issues, and delivery flow.
 
-`Next.js` `TypeScript` `PostgreSQL`
+## Engineering approach
 
-</td>
-<td width="50%" valign="top">
+- I follow the work past the UI
+- I care about systems that are explainable, not just functional
+- I prefer measurable improvements over abstract claims
 
-### ⚡ [API Studio](https://apistudio-psi.vercel.app)
-Developer tool for designing, testing, and documenting REST APIs — lightweight, clean, and fast.
+## Stack
 
-`Next.js` `TypeScript` `REST`
-
-</td>
-</tr>
-</table>
-
----
-
-## 🛠️ Tech Stack
-
-**Languages**
-
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
-**Backend**
-
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
-![Express](https://img.shields.io/badge/Express-000000?style=flat-square&logo=express&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-
-**Frontend**
-
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
-
-**Tools**
-
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DD0031?style=flat-square&logo=redis&logoColor=white)
+![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=FF9900)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
----
+## GitHub overview
 
-## 📬 Let's Connect
+<p>
+  <img
+    src="https://github-readme-stats.vercel.app/api?username=ParvejAliDev&show_icons=true&hide_border=true&rank_icon=github&theme=transparent"
+    alt="GitHub stats for Parvej Ali"
+    height="165"
+  />
+  <img
+    src="https://github-readme-stats.vercel.app/api/top-langs/?username=ParvejAliDev&layout=compact&hide_border=true&theme=transparent"
+    alt="Top languages used by Parvej Ali"
+    height="165"
+  />
+</p>
 
-I am open to exciting opportunities, collaborations or just a good tech conversation.
+## Find me
 
-[![Portfolio](https://img.shields.io/badge/parvejali.vercel.app-000?style=for-the-badge&logo=vercel&logoColor=white)](https://parvejali.vercel.app)
-[![LinkedIn](https://img.shields.io/badge/\/in\/parvej--ali-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/parvej-ali)
-
----
-
-<div align="center">
-  <sub>Built with intention · Parvej Ali © 2025</sub>
-</div>
+- Portfolio: [parvejali.vercel.app](https://parvejali.vercel.app)
+- LinkedIn: [linkedin.com/in/parvej-ali](https://linkedin.com/in/parvej-ali)
+- GitHub: [github.com/ParvejAliDev](https://github.com/ParvejAliDev)
