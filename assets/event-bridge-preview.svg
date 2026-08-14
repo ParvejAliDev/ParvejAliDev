@@ -1,0 +1,64 @@
+<svg width="400" height="240" viewBox="0 0 400 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Card Background -->
+  <rect width="400" height="240" rx="12" fill="#1a1b27" stroke="#e0234e" stroke-width="1.5" stroke-opacity="0.4"/>
+  
+  <!-- Header Bar -->
+  <rect x="0" y="0" width="400" height="38" rx="12" fill="#1f2335"/>
+  <rect x="0" y="26" width="400" height="12" fill="#1f2335"/>
+  <circle cx="20" cy="19" r="5" fill="#f7768e"/>
+  <circle cx="36" cy="19" r="5" fill="#e0af68"/>
+  <circle cx="52" cy="19" r="5" fill="#9ece6a"/>
+  <text x="75" y="23" font-family="'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="600" fill="#f7768e">Event Bridge Demo • Kafka Pipeline Architecture</text>
+  
+  <!-- Event Pipeline Diagram -->
+  <g transform="translate(16, 52)">
+    <!-- Node 1: Producer -->
+    <rect x="0" y="20" width="85" height="50" rx="8" fill="#24283b" stroke="#7aa2f7" stroke-width="1.5"/>
+    <text x="12" y="42" font-family="sans-serif" font-size="10" font-weight="700" fill="#7aa2f7">Producer API</text>
+    <text x="12" y="58" font-family="sans-serif" font-size="9" fill="#a9b1d6">NestJS Ingestion</text>
+
+    <!-- Arrow 1 -->
+    <path d="M 86 45 L 118 45" stroke="#7aa2f7" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <polygon points="122,45 116,41 116,49" fill="#7aa2f7"/>
+
+    <!-- Node 2: Kafka Event Bus -->
+    <rect x="124" y="10" width="120" height="70" rx="8" fill="#1f2335" stroke="#e0234e" stroke-width="1.5"/>
+    <text x="134" y="30" font-family="sans-serif" font-size="11" font-weight="700" fill="#f7768e">Apache Kafka</text>
+    <rect x="134" y="38" width="100" height="16" rx="3" fill="#292e42"/>
+    <text x="140" y="50" font-family="monospace" font-size="9" fill="#73daca">topic.order-events</text>
+    <text x="134" y="70" font-family="sans-serif" font-size="8" fill="#e0af68">Async Ingestion Flow</text>
+
+    <!-- Arrow 2 -->
+    <path d="M 245 45 L 277 45" stroke="#9ece6a" stroke-width="1.5"/>
+    <polygon points="281,45 275,41 275,49" fill="#9ece6a"/>
+
+    <!-- Node 3: Consumer Group -->
+    <rect x="283" y="20" width="85" height="50" rx="8" fill="#24283b" stroke="#9ece6a" stroke-width="1.5"/>
+    <text x="291" y="42" font-family="sans-serif" font-size="10" font-weight="700" fill="#9ece6a">Consumer</text>
+    <text x="291" y="58" font-family="sans-serif" font-size="9" fill="#a9b1d6">Retry &amp; Replay</text>
+  </g>
+
+  <!-- Reliability Box (DLQ & Retries) -->
+  <g transform="translate(16, 142)">
+    <rect x="0" y="0" width="368" height="50" rx="6" fill="#1f2335" stroke="#414868" stroke-width="1"/>
+    <text x="12" y="20" font-family="sans-serif" font-size="10" font-weight="600" fill="#bb9af7">Reliability Engine</text>
+    <text x="12" y="38" font-family="sans-serif" font-size="9" fill="#a9b1d6">• Dead-Letter Queue (DLQ)</text>
+    <text x="140" y="38" font-family="sans-serif" font-size="9" fill="#a9b1d6">• Exponential Backoff Retry</text>
+    <text x="280" y="38" font-family="sans-serif" font-size="9" fill="#a9b1d6">• Event Replay</text>
+  </g>
+  
+  <!-- Footer Tech Badges -->
+  <g transform="translate(16, 204)">
+    <rect x="0" y="0" width="56" height="20" rx="4" fill="#292e42"/>
+    <text x="10" y="14" font-family="sans-serif" font-size="10" font-weight="600" fill="#f7768e">NestJS</text>
+    
+    <rect x="64" y="0" width="90" height="20" rx="4" fill="#292e42"/>
+    <text x="74" y="14" font-family="sans-serif" font-size="10" font-weight="600" fill="#e0af68">Apache Kafka</text>
+    
+    <rect x="162" y="0" width="76" height="20" rx="4" fill="#292e42"/>
+    <text x="172" y="14" font-family="sans-serif" font-size="10" font-weight="600" fill="#bb9af7">PostgreSQL</text>
+    
+    <rect x="246" y="0" width="48" height="20" rx="4" fill="#292e42"/>
+    <text x="256" y="14" font-family="sans-serif" font-size="10" font-weight="600" fill="#73daca">Redis</text>
+  </g>
+</svg>
